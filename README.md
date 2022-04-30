@@ -30,6 +30,7 @@ int main()
 }
 ```
 ## makefile
+```
 .PHONY : clean
 
 kadai2.out : kadai2.c
@@ -40,5 +41,6 @@ do :
     
 clean :
     rm kadai2.out
+```
 ## 出力
 ![](/images/2.png)
